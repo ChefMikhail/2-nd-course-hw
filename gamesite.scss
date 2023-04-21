@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .center {
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
+  } 
+  .top {
+    background-image: url(gamesite/Rectangle\ 1.jpg);
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 217px;
+    padding-left: 120px;
+    gap: 32px;
+    &__title{
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 78px;
+      color: #FFFFFF;  
+      }
+    &__text{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        max-width: 498px;
+        &_font{
+          font-weight:600 ;
+        }
+    }
+    &__button{
+      background: #9C0332;
+      border-radius: 30px;
+      box-sizing: border-box;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+      width: 234.06px;
+      height: 48.6px;
+     
+    }
+  }
+  .game{
+    background-image: url(gamesite/Rectangle\ 5.jpg);
+    height: 556px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    padding-left: 120px;
+    &__item{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      color: #FFFFFF;
+      display: flex;
+      align-items: flex-end;
+    }
+    &__item1{
+      background-image: url(gamesite/Rectangle\ 6.jpg);
+      width: 378px;
+      height: 300px;
+    }
+    &__item2{
+      background-image: url(gamesite/Rectangle\ 7.jpg);
+      width: 378px;
+      height: 300px;
+    }
+    &__item3{
+      background-image: url(gamesite/Rectangle\ 8.jpg);
+      width: 378px;
+      height: 300px;
+    }
+  }
