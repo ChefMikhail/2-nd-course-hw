@@ -66,7 +66,6 @@ body {
   justify-content: center;
   gap: 32px;
   align-items: center;
-  padding-left: 120px;
 }
 .game__item {
   font-weight: 600;
@@ -76,27 +75,24 @@ body {
   display: flex;
   align-items: flex-end;
   border-radius: 16px;
+  width: 378px;
+  height: 300px;
+  padding: 32px;
 }
 .game__item1 {
   background-image: url(gamesite/Rectangle\ 6.jpg);
-  width: 378px;
-  height: 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .game__item2 {
   background-image: url(gamesite/Rectangle\ 7.jpg);
-  width: 378px;
-  height: 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .game__item3 {
   background-image: url(gamesite/Rectangle\ 8.jpg);
-  width: 378px;
-  height: 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
