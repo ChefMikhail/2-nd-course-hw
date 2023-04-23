@@ -21,13 +21,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    display: flex;
+    justify-content: flex-start;
   }
   .title{
     display: flex;
     flex-direction: column;
     padding-top: 217px;
-    padding-left: 120px;
     gap: 32px;
     &__title{
       font-weight: 700;
@@ -62,7 +62,6 @@
     background-image: url(gamesite/Rectangle\ 5.jpg);
     height: 556px;
     display: flex;
-    justify-content: center;
     gap: 32px;
     align-items: center;
     &__item{
@@ -75,7 +74,7 @@
       border-radius: 16px;
       width: 378px;
       height: 300px;
-      padding: 32px;
+      
     }
     &__item1{
       background-image: url(gamesite/Rectangle\ 6.jpg);
@@ -95,4 +94,8 @@
       background-position: center;
       background-size: cover;
     }
+    &__text{
+      padding: 32px;
+    }
   }
+  @import'mobile'
