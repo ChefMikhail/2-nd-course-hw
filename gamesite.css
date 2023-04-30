@@ -59,6 +59,7 @@ body {
   width: 234.06px;
   height: 48.6px;
   transition: 1s;
+  font-family: "Montserrat";
 }
 .title__button:hover {
   background: aqua;
@@ -136,12 +137,23 @@ body {
   align-items: center;
   color: #FFFFFF;
 }
+.play__center {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
 .play__text {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
   max-width: 584px;
+}
+.play__text_center {
+  text-align: center;
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 .play__button {
   height: 48.6px;
@@ -155,12 +167,48 @@ body {
   font-size: 18px;
   color: #FFFFFF;
   transition: 1s;
+  font-family: "Montserrat";
 }
 .play__button:hover {
   background: rgb(73, 181, 181);
   text-decoration: underline;
   color: black;
   font-size: 24px;
+}
+
+.memory {
+  display: flex;
+  flex-direction: row-reverse;
+  background-image: url(gamesite/Rectangle\ 7\ \(1\).jpg);
+  height: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guess {
+  background-image: url(gamesite/unsplash_iO0I6-mhDEY.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background: #000915;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  font-style: normal;
 }
 
 @media (max-width: 376px) {
@@ -226,6 +274,16 @@ body {
   }
   .seasons {
     display: flex;
-    align-content: flex-start;
+    align-content: center;
+  }
+  .memory {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .guess {
+    background-position-x: calc(100% + 455px);
+    display: flex;
+    align-items: flex-start;
   }
 }/*# sourceMappingURL=gamesite.css.map */

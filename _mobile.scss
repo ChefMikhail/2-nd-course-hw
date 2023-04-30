@@ -61,7 +61,18 @@
     }
     .seasons{
         display: flex;
-        align-content: flex-start;
+        align-content: center;
+    }
+    .memory{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .guess{
+        background-position-x: calc(100% + 455px);
+        display: flex;
+        align-items: flex-start;
     }   
 
 }

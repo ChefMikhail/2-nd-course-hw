@@ -56,6 +56,7 @@
       width: 234.06px;
       height: 48.6px;
       transition: 1s;
+      font-family: 'Montserrat';
       &:hover{
         background: aqua;
         text-decoration: underline;
@@ -132,12 +133,22 @@
       align-items: center;
       color: #FFFFFF;
     }
+    &__center{
+      align-items: center;
+      display: flex;
+      gap: 32px;
+      flex-direction: column;
+    }
     &__text{
       font-weight: 300;
       font-size: 18px;
       line-height: 32px;
       color: #FFFFFF;
       max-width: 584px;
+      &_center{
+        text-align: center;
+        max-width: max-content;
+      }
     }
     &__button{
       height: 48.6px;
@@ -151,6 +162,7 @@
       font-size: 18px;
       color: #FFFFFF;
       transition: 1s;
+      font-family: 'Montserrat';
       &:hover{
         background: rgb(73, 181, 181);
         text-decoration: underline;
@@ -159,5 +171,37 @@
       }
     }
   }
+  .memory{
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(gamesite/Rectangle\ 7\ \(1\).jpg);
+    height: 800px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .guess{
+    background-image: url(gamesite/unsplash_iO0I6-mhDEY.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+  }
+.footer{
+  background: #000915;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    font-style: normal;
+  }
+}
   @import'mobile'
