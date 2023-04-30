@@ -58,6 +58,12 @@ body {
   color: #FFFFFF;
   width: 234.06px;
   height: 48.6px;
+  transition: 1s;
+}
+.title__button:hover {
+  background: aqua;
+  text-decoration: underline;
+  color: black;
 }
 
 .game {
@@ -77,6 +83,12 @@ body {
   border-radius: 16px;
   width: 378px;
   height: 300px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.game__item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 6px #ccc;
 }
 .game__item1 {
   background-image: url(gamesite/Rectangle\ 6.jpg);
@@ -98,6 +110,57 @@ body {
 }
 .game__text {
   padding: 32px;
+}
+
+.seasons {
+  background-image: url(gamesite/play.jpg);
+  background-position: center;
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.play {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.play__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.play__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  max-width: 584px;
+}
+.play__button {
+  height: 48.6px;
+  width: 234.06px;
+  top: 187px;
+  left: 0px;
+  border-radius: 30px;
+  background: #9C0332;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: 1s;
+}
+.play__button:hover {
+  background: rgb(73, 181, 181);
+  text-decoration: underline;
+  color: black;
+  font-size: 24px;
 }
 
 @media (max-width: 376px) {
@@ -138,5 +201,31 @@ body {
   }
   .game__text {
     padding-left: 16px;
+  }
+  .play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .play__title {
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 32px;
+  }
+  .play__text {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .gamezone {
+    width: 100%;
+    padding-top: 64px;
+  }
+  .seasons {
+    display: flex;
+    align-content: flex-start;
   }
 }/*# sourceMappingURL=gamesite.css.map */

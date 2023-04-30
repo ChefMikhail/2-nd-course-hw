@@ -55,7 +55,13 @@
       color: #FFFFFF;
       width: 234.06px;
       height: 48.6px;
-     
+      transition: 1s;
+      &:hover{
+        background: aqua;
+        text-decoration: underline;
+        color: black;
+
+      }
     }
   }
   .game{
@@ -74,6 +80,12 @@
       border-radius: 16px;
       width: 378px;
       height: 300px;
+      box-sizing: border-box;
+      transition: 0.5s;
+      &:hover{
+        transform: scale(1.05);
+        box-shadow:0 0 6px #ccc;
+      }
       
     }
     &__item1{
@@ -98,4 +110,54 @@
       padding: 32px;
     }
   }
+  .seasons{
+    background-image: url(gamesite/play.jpg);
+    background-position: center;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .play{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    &__title{
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 59px;
+      display: flex;
+      align-items: center;
+      color: #FFFFFF;
+    }
+    &__text{
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 32px;
+      color: #FFFFFF;
+      max-width: 584px;
+    }
+    &__button{
+      height: 48.6px;
+      width: 234.06px;
+      top: 187px;
+      left: 0px;
+      border-radius: 30px;
+      background: #9C0332;
+      font-weight: 400;
+      line-height: 22px;
+      font-size: 18px;
+      color: #FFFFFF;
+      transition: 1s;
+      &:hover{
+        background: rgb(73, 181, 181);
+        text-decoration: underline;
+        color: black;
+        font-size: 24px;
+      }
+    }
+  }
+
   @import'mobile'
