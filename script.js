@@ -3,11 +3,11 @@ alert(a);
 a = 20;
 alert(a)
 
-let smartphone = ' The first Iphone was Released in 2007' //Задание 2
-alert(smartphone)
+let firstIphonewasReleased = 2007 //Задание 2
+alert(firstIphonewasReleased)
 
-let genius = 'Brendan Eich is the creator of JS' //Задание 3
-alert(genius)
+let  creatorofJS = 'Brendan Eich' //Задание 3
+alert(creatorofJS)
 
 let x = 10 // Задание 4
 let y = 2 
@@ -51,3 +51,5 @@ alert( user[info] );
 
 let username = prompt('what is your name?') //Задание 10
 alert('Привет, ИМЯ!')
+
+
