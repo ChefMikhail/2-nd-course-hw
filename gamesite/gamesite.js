@@ -15,7 +15,8 @@ const showSeasons = () => {
     else if (month === 9 || month === 10 || month === 11){
         alert('Welcome to the Autumn')
     }
-    else {
-        console.log('Season does not exist');
+    else if (isNaN(month)|| month > 12) {
+        console.log('Season does not exist')
     }
+    
 }
