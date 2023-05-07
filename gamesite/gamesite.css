@@ -17,7 +17,7 @@ body {
 }
 
 .top {
-  background-image: url(gamesite/Rectangle\ 1.jpg);
+  background-image: url(images/Rectangle\ 1.jpg);
   height: 1024px;
   background-repeat: no-repeat;
   background-position: center;
@@ -68,7 +68,7 @@ body {
 }
 
 .game {
-  background-image: url(gamesite/Rectangle\ 5.jpg);
+  background-image: url(images/Rectangle\ 5.jpg);
   height: 556px;
   display: flex;
   gap: 32px;
@@ -92,19 +92,19 @@ body {
   box-shadow: 0 0 6px #ccc;
 }
 .game__item1 {
-  background-image: url(gamesite/Rectangle\ 6.jpg);
+  background-image: url(images/Rectangle\ 6.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .game__item2 {
-  background-image: url(gamesite/Rectangle\ 7.jpg);
+  background-image: url(images/Rectangle\ 7.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .game__item3 {
-  background-image: url(gamesite/Rectangle\ 8.jpg);
+  background-image: url(images/Rectangle\ 8.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -114,7 +114,7 @@ body {
 }
 
 .seasons {
-  background-image: url(gamesite/play.jpg);
+  background-image: url(images/play.jpg);
   background-position: center;
   height: 800px;
   background-size: cover;
@@ -179,14 +179,14 @@ body {
 .memory {
   display: flex;
   flex-direction: row-reverse;
-  background-image: url(gamesite/Rectangle\ 7\ \(1\).jpg);
+  background-image: url(images/Rectangle\ 7\ \(1\).jpg);
   height: 800px;
   justify-content: space-between;
   align-items: center;
 }
 
 .guess {
-  background-image: url(gamesite/unsplash_iO0I6-mhDEY.jpg);
+  background-image: url(images/unsplash_iO0I6-mhDEY.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
