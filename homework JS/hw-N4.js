@@ -50,10 +50,8 @@ do {
 console.log('Количество итерации = ' + result);
 
 //Задание 6
-for (let day = 1; day <=31; day++) {
-    if (day === 5 || day === 12|| day === 19|| day===26 ) {
-        console.log(`Сегодня пятница, ${day}-e число. Необходимо подготовить отчет`)};
-    
-}
-    
-    
+let friday = Number(prompt('enter day')) 
+    for(let day = friday; day <= 31; day += 7){
+        console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
+    }
+  
