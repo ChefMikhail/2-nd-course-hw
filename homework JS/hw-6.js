@@ -2,7 +2,7 @@
 const numbs = [1, 5, 4, 10, 0, 3]
 
 for (let a = 0; a < numbs.length; a++){
-    if (numbs[a] === 10) break;
+    if (numbs[a] === 0) break;
     console.log(numbs[a]);
 }
 
@@ -17,13 +17,16 @@ puta = puta.join()
 console.log(puta);
 
 //Задание 4
-let one = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+let one = []
 
-for (let i = 0; i < one.length; i++) {
-    for (let j = 0; j < one[i].length; j++) {
-        console.log(one[i][j]);
+for (let i = 0; i < 3; i++) {
+ one[i]=[]
+for (let j = 0; j < 3; j++) {
+ one[i][j] = 1
     }  
 }
+console.log(one);
+
 //Задание 5
 let Numbers = [1, 1, 1]
 
@@ -110,4 +113,6 @@ console.log(arrayRound2);
 
 
 const arithmeticMean = (arrayRound2.reduce((a, b) => (a + b))) / (arrayRound2.length);
-console.log (arithmeticMean.toFixed(2));
+console.log (arithmeticMean);
+
+
