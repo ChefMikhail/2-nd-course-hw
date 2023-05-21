@@ -20,3 +20,19 @@ const showSeasons = () => {
     }
     
 }
+const memorizeWord = () =>{
+    let list = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин']
+    list = list.sort(() => Math.random() - 0.5);
+    alert(list)
+    let askUser = prompt('Чему равнялся первый элемент массива?')
+    let askUser2 = prompt('Чему равнялся последний элемент массива?')
+
+alert(askUser.toLowerCase() === list[0].toLowerCase() && askUser2.toLowerCase() === list[6].toLowerCase()?'Congrats!':
+(askUser.toLowerCase() === list[0].toLowerCase()||askUser2.toLowerCase() === list[6].toLowerCase())?'«Вы были близки к победе!»':'Try again'
+)
+}
+
+
+
+
+

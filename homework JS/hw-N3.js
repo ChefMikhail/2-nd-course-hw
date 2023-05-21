@@ -75,3 +75,4 @@ if (z/2) {alert('even number')
     
 }
 if(z%2) {alert('odd number')}
+
